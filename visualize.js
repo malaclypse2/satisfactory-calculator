@@ -18,7 +18,7 @@ import { Ingredient } from "./recipe.js"
 
 const iconSize = 48
 
-const nodePadding = 8
+const nodePadding = 60
 
 const columnWidth = 150
 const maxNodeHeight = 175
