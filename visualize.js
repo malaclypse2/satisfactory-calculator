@@ -232,7 +232,7 @@ export function renderTotals(totals, targets, ignore) {
     let sankey = d3.sankey()
         .nodeWidth(nodeWidth)
         .nodePadding(nodePadding)
-        .nodeAlign(d3.sankeyRight)
+        .nodeAlign(d3.sankeyJustify)
         .extent([[10, 10], [width + 10, height + 10]])
     let {nodes, links} = sankey(data)
 
